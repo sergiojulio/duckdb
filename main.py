@@ -1,8 +1,8 @@
 import duckdb
 
-cursor = duckdb.connect()
+# cursor = duckdb.connect()
 
-print(cursor.execute("SELECT * FROM 'userdata1.parquet' LIMIT 10;").fetchall())
+# print(cursor.execute("SELECT * FROM 'userdata1.parquet' LIMIT 10;").fetchall())
 
 
 def get_data(year, month):
